@@ -25,6 +25,12 @@ Then simply invoke the CLI tool `trello-to-deck`:
 usage: trello-to-deck [-h] input_json nextcloud_instance username password
 trello-to-deck: error: the following arguments are required: input_json, nextcloud_instance, username, password
 ```
+### Working example
+```console
+cd scripts
+python3 trello-to-deck ...params...
+```
+
 
 You have to provde the arguments `input_json` e.g. `trello.json`, `nextcloud_instance` e.g. `https://example.org/nextcloud` and the `username` and `password` for nextcloud. If you have 2-FA please create a temporary app passowrd for converting to Deck.
 
